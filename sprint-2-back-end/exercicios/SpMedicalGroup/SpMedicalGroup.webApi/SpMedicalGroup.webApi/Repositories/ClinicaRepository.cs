@@ -1,4 +1,6 @@
-﻿using SpMedicalGroup.webApi.Contexts;
+﻿
+using Microsoft.EntityFrameworkCore;
+using SpMedicalGroup.webApi.Contexts;
 using SpMedicalGroup.webApi.Domains;
 using SpMedicalGroup.webApi.Interfaces;
 using System;
@@ -10,7 +12,7 @@ namespace SpMedicalGroup.webApi.Repositories
 {
     public class ClinicaRepository : IClinicaRepository
     {
-        SpMedicalGroupContext ctx = new SpMedicalGroupContext();
+        SpMedicalContext ctx = new SpMedicalContext();
 
         public void Atualizar(int id, Clinica ClinicaAtualizada)
         {

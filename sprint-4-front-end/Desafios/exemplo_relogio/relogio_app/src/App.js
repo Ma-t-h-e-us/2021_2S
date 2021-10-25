@@ -36,10 +36,19 @@ class Clock extends React.Component {
   };
 
   pausar(){
+    if (this.state.pausado === true) {
+      this.setState({
+        pausado : false
+      })
+      this.timerID += 1;
+      console.log('Relógio retomado!')
+      console.log('Agora sou o relógio ' + this.timerID);
+    } else{
     this.setState({
       pausado : true
     })
     console.log('Relógio ' + this.timerID + ' pausado');
+  }
   }
 
   retomar(){
@@ -56,7 +65,6 @@ class Clock extends React.Component {
       <h1>Relógio</h1>
       <DataFormatada date={this.state.date} />
       <button className="Pausar" onClick={() => this.pausar()}>PAUSAR</button>
-      <button classname="Retomar" onClick={() => this.retomar()}>RETOMAR</button>
     </div>
     )
   }

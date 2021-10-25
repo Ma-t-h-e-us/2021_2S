@@ -12,6 +12,6 @@ namespace SpMedicalGroup.webApi.Interfaces
         List<Medico> ListarTodos();
         Medico BuscarPorId(int IdMedico);
         void Deletar(int IdMedico);
-        void Atualizar(int IdMedico, Medico PacienteAtualizado);
+        void Atualizar(int IdMedico, Medico MedicoAtualizado);
     }
 }

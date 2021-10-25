@@ -1,4 +1,5 @@
-﻿using SpMedicalGroup.webApi.Domains;
+﻿using Microsoft.AspNetCore.Http;
+using SpMedicalGroup.webApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +20,6 @@ namespace SpMedicalGroup.webApi.Interfaces
         Usuario BuscarPorId(int id);
 
         void Atualizar(int id, Usuario UsuarioAtualizado);
+
     }
 }
