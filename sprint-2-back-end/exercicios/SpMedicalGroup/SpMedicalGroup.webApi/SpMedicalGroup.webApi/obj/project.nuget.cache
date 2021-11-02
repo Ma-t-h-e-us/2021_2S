@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0qEBXisqUWmoyGYhT0MqzY2xUA6eG7HR082yhODhctd7dWEIHkmsbU4fcfcOOhXU3QVS8Z/KtybDi4TPwtLZNQ==",
+  "dgSpecHash": "Y+4M0Ewqg3oO/+H2EQF4im6tpR06EeyMKpuT7RwuFMOsZty0GugnOAoMILIwCR38xuDza7Aoq5JuDDUxk1N5Hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\2021_2S\\sprint-2-back-end\\exercicios\\SpMedicalGroup\\SpMedicalGroup.webApi\\SpMedicalGroup.webApi\\SpMedicalGroup.webApi.csproj",
   "expectedPackageFiles": [
@@ -143,7 +143,9 @@
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

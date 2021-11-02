@@ -65,3 +65,5 @@ C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedic
 C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedicalGroup\SpMedicalGroup.webApi\SpMedicalGroup.webApi\obj\Debug\net5.0\ref\SpMedicalGroup.webApi.dll
 C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedicalGroup\SpMedicalGroup.webApi\SpMedicalGroup.webApi\obj\Debug\net5.0\SpMedicalGroup.webApi.pdb
 C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedicalGroup\SpMedicalGroup.webApi\SpMedicalGroup.webApi\obj\Debug\net5.0\SpMedicalGroup.webApi.genruntimeconfig.cache
+C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedicalGroup\SpMedicalGroup.webApi\SpMedicalGroup.webApi\bin\Debug\net5.0\xunit.abstractions.dll
+C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\exercicios\SpMedicalGroup\SpMedicalGroup.webApi\SpMedicalGroup.webApi\bin\Debug\net5.0\xunit.core.dll

@@ -20,11 +20,11 @@ namespace SpMedicalGroup.webApi.Controllers
         [ApiController]
         public class ClinicaController : ControllerBase
         {
-            private IClinicaRepository _clinicaRepository { get; set; }
+            private IClinicaRepository ClinicaRepositorio { get; set; }
 
             public ClinicaController()
             {
-                _clinicaRepository = new ClinicaRepository();
+                ClinicaRepositorio = new ClinicaRepository();
             }
 
             [Authorize(Roles = "1")]
@@ -41,7 +41,7 @@ namespace SpMedicalGroup.webApi.Controllers
                             Mensagem = "Os valores inseridos são inválidos!"
                         });
                     }
-                    _clinicaRepository.CadastrarClinica(NovaClinica);
+                    ClinicaRepositorio.CadastrarClinica(NovaClinica);
 
                     return StatusCode(201, new
                     {
@@ -63,7 +63,7 @@ namespace SpMedicalGroup.webApi.Controllers
             {
                 try
                 {
-                    List<Clinica> lista = _clinicaRepository.ListarTodas();
+                    List<Clinica> lista = ClinicaRepositorio.ListarTodas();
 
                     if (lista == null)
                     {
@@ -100,7 +100,7 @@ namespace SpMedicalGroup.webApi.Controllers
                         });
                     }
 
-                    if (_clinicaRepository.BuscarClinica(id) == null)
+                    if (ClinicaRepositorio.BuscarClinica(id) == null)
                     {
                         return StatusCode(404, new
                         {
@@ -115,7 +115,7 @@ namespace SpMedicalGroup.webApi.Controllers
                         });
                     }
 
-                    _clinicaRepository.Atualizar(id, ClinicaAtualizada);
+                    ClinicaRepositorio.Atualizar(id, ClinicaAtualizada);
                     return Ok(new
                     {
                         Mensagem = "A clínica foi atualizada com sucesso!",
@@ -143,7 +143,7 @@ namespace SpMedicalGroup.webApi.Controllers
                         });
                     }
 
-                    if (_clinicaRepository.BuscarClinica(id) == null)
+                    if (ClinicaRepositorio.BuscarClinica(id) == null)
                     {
                         return StatusCode(404, new
                         {
@@ -151,7 +151,7 @@ namespace SpMedicalGroup.webApi.Controllers
                         });
                     }
 
-                    _clinicaRepository.Deletar(id);
+                    ClinicaRepositorio.Deletar(id);
                     return Ok(new
                     {
                         Mensagem = "A clínica foi excluída com sucesso!",
